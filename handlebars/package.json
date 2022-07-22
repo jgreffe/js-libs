@@ -11,12 +11,12 @@
   "devDependencies": {
     "@jenkins-cd/js-test": "^1.2.3",
     "gulp": "^3.9.0",
-    "jenkins-js-builder": "0.0.51",
+    "@jenkins-cd/js-builder": "0.1.0",
     "jsdom": "7.0.2"
   },
   "dependencies": {
-    "jenkins-js-modules": "1.5.4",
-    "handlebars": "^3.0.8",
+    "@jenkins-cd/js-modules": "0.0.10",
+    "handlebars": "^4.7.7",
     "window-handle": "1.0.1"
   }
 }

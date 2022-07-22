@@ -5,15 +5,15 @@
 
 const jsTest = require('@jenkins-cd/js-test');
 
-describe("handlebars3.js", function () {
+describe("handlebars4.js", function () {
 
     it("- test", function (done) {
       jsTest.onPage(() => {
-        const jenkins = require('jenkins-js-modules');
-        jenkins.export('handlebars', 'handlebars3', require('handlebars'));
-        jenkins.import("handlebars:handlebars3")
-            .onFulfilled(function(handlebars3) {
-              expect(handlebars3).toBeDefined();
+        const jenkins = require('@jenkins-cd/js-modules');
+        jenkins.export('handlebars', 'handlebars4', require('handlebars'));
+        jenkins.import("handlebars:handlebars4")
+            .onFulfilled(function(handlebars4) {
+              expect(handlebars4).toBeDefined();
               done();
             });
       });

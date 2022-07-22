@@ -1,8 +1,8 @@
-const builder = require('jenkins-js-builder');
+const builder = require('@jenkins-cd/js-builder');
 
 //
 // Bundle the module.
 //
-builder.bundle('handlebars', 'handlebars3')
+builder.bundle('handlebars', 'handlebars4')
     .asJenkinsModuleResource()
     .export();

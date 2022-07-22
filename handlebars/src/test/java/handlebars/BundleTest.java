@@ -13,6 +13,6 @@ public class BundleTest {
     
     @Test
     public void test_core_assest_assembly() {
-        Assert.assertTrue(new File("./target/assets-wrapper/assets/handlebars/jsmodules/handlebars3.js").exists());
+        Assert.assertTrue(new File("./target/assets-wrapper/assets/handlebars/jsmodules/handlebars4.js").exists());
     }
 }
