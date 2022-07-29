@@ -1,6 +1,6 @@
 {
   "name": "jenkins-handlebars-rt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Jenkins CI Handlebars Runtime JavaScript module",
   "author": "Tom Fennelly <tom.fennelly@gmail.com> (https://github.com/tfennelly)",
   "license": "MIT",
@@ -11,11 +11,11 @@
   "devDependencies": {
     "@jenkins-cd/js-test": "^1.2.3",
     "gulp": "^3.9.0",
-    "jenkins-js-builder": "0.0.51",
+    "@jenkins-cd/js-builder": "0.0.64",
     "jsdom": "7.0.2"
   },
   "dependencies": {
-    "jenkins-js-modules": "1.5.4",
+    "@jenkins-cd/js-modules": "0.0.10",
     "handlebars": "^3.0.8",
     "window-handle": "1.0.1"
   }
